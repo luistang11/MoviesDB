@@ -18,7 +18,7 @@ function Favoritoss(props) {
 
 
   return (
-    <div>
+    <div style={{height:'90vh'}}>
         <Card moviesList={favorites} addOrRemoveFavs={props.addOrRemoveFavs}></Card>
     </div>
   )

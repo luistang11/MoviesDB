@@ -37,7 +37,7 @@ function Login() {
     let nombre=sessionStorage.getItem('nombre');
 
   return (
-    <>
+    <div style={{height:'90vh'}}>
     { nombre && <Navigate to='/listado'/>}
     <h2>Formulario de login</h2>
     <form onSubmit={submitHandler}>
@@ -53,7 +53,7 @@ function Login() {
         <br/>
         <button type='submit' >Ingresar</button>
     </form>
-    </>
+    </div>
   )
 }
 
