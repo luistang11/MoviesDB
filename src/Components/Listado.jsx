@@ -28,6 +28,7 @@ function Listado(props) {
       <h2>Ha cerrado sesion</h2>
     )
     navigate('/')
+    window.location.reload();
     
   }
 

@@ -8,7 +8,6 @@ function Footer() {
                 <li><a href="https://www.instagram.com/luis_tang11/" rel='noopener noreferrer'>Instagram</a></li>
             </ul>
         </nav>
-        <p>Copyrigth</p>
     </PiePag>
   )
 }

@@ -7,7 +7,7 @@ function Login() {
     const submitHandler=e=>{
         e.preventDefault();
 
-        const email=e.target.email.value;
+        const email=e.target.email.value.trim();
         const password=e.target.password.value;
         const regex=  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
