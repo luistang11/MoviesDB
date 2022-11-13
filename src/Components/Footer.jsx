@@ -3,7 +3,7 @@ import styled from 'styled-components';
 function Footer() {
   return (
     <PiePag>
-        <nav>
+        <nav className='col-md-12'>
             <ul>
                 <li><a href="https://www.instagram.com/luis_tang11/" rel='noopener noreferrer'>Instagram</a></li>
             </ul>

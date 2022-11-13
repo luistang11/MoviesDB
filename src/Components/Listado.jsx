@@ -24,9 +24,6 @@ function Listado(props) {
 
   function handleCloseSesion(){
     sessionStorage.clear()
-    swal(
-      <h2>Ha cerrado sesion</h2>
-    )
     navigate('/')
     window.location.reload();
     

@@ -24,10 +24,6 @@ function Login() {
             )
             return
         }
-
-        swal(
-                <h2>Inicio exitoso</h2>
-            )
         sessionStorage.setItem('nombre',email)
         navigate('/')
         window.location.reload();
